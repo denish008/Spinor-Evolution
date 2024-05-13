@@ -1,5 +1,4 @@
-# Spinor-Evolution
-This repository contains code for numerically simulating time evolution of a gaussian spinor in a barrier potential
+## Spinor-Evolution
 
 ### Theory :
 ---
