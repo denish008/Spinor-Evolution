@@ -1,7 +1,6 @@
 ## Spinor-Evolution
 
 ### Theory :
----
 
 The Hamiltonian of the system containing spin orbit coupling is as follows
 
@@ -20,7 +19,6 @@ Here $k^+=k_x+ik_y$ and $k^-=k_x-ik_y$. Then they move to define the spinor wave
 $$ \psi(z, t) = \begin{pmatrix} \phi_{\uparrow}(z,t) \\ \phi_{\downarrow}(z,t) \end{pmatrix} $$
 
 ### Implementation :
----
 
 If we follow the central difference method for dealing with the partial derivatives in the Hamiltonian terms, then we end up with a recursion relation, which relates the spinor wavefunction $\mathbf{\psi}^n(z)$ with wavefunction at the next time step $\mathbf{\psi}^{n+1}(z)$.
 
