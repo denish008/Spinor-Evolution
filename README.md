@@ -20,13 +20,14 @@ Here $k^+=k_x+ik_y$ and $k^-=k_x-ik_y$. Then they move to define the spinor wave
 
 $$ \psi(z, t) = \begin{pmatrix} \phi_{\uparrow}(z,t) \\ \phi_{\downarrow}(z,t) \end{pmatrix} $$
 
+### Implementation :
+---
+
 If we follow the central difference method for dealing with the partial derivatives in the Hamiltonian terms, then we end up with a recursion relation, which relates the spinor wavefunction $\mathbf{\psi}^n(z)$ with wavefunction at the next time step $\mathbf{\psi}^{n+1}(z)$.
 
 I have provided the form of central difference method in the context of eigen-value equation $H\psi = E\psi$. Here I have used the $j$ as the spatial index and $n$ as the the temporal index.
 
 $$\left( \dfrac{\partial^2}{\partial^2z} - V_j\right)\psi^n_j = \dfrac{1}{\epsilon^2} (\psi^n_{j+1} - 2\psi^n_{j} + \psi^n_{j-1}) - V_j\psi^n_j$$
-
-The recurs
 
 Some constants that are used are defined here, $\epsilon$ and $\delta$ are the space and the time discretization parameters which are referred to as <b>del_z</b> and <b>del_t</b> in the program.
  
